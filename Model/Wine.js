@@ -1,6 +1,6 @@
 class Wine extends Beverage{
-    constructor(name, producer, yob, quantity, alcohol, vite, location){
-        super(name, producer, yob, quantity, alcohol);
+    constructor(name, producer, yob, quantity, alcohol, bottleNumber, vite, location){
+        super(name, producer, yob, quantity, alcohol, bottleNumber);
         this.vite = vite;
         this.location = location;
     }

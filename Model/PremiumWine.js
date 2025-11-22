@@ -1,6 +1,6 @@
 class PremiumWine extends Wine{
-    constructor(name, producer, yob, quantity, alcohol, vite, location, certification){
-        super(name, producer, yob, quantity, alcohol, vite, location);
+    constructor(name, producer, yob, quantity, alcohol, bottleNumber, vite, location, certification){
+        super(name, producer, yob, quantity, alcohol, bottleNumber, vite, location);
         this.certification = certification;
     }
 
