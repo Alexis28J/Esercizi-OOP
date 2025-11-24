@@ -1,0 +1,13 @@
+.card{
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid black; */
+    padding: 8px;
+    border-radius: 8px;
+    /* PAGINA PER SCEGLIERE DEI BORDI DI VARI TIPI: https://box-shadow.dev/ */
+    box-shadow: 0px 10px 25px -3px rgba(0,0,0,0.3);
+}
+
+main{
+    display: flex;
+}
